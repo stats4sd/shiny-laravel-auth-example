@@ -1,6 +1,3 @@
-# TODO:
-- Add links to example Laravel and Shiny applications that use this setup:
-
 # Readme
 This guide shows one way that a Laravel app can communicate with a Shiny app, e.g. to enable only users authenticated within Laravel to view the Shiny app. The goal is to allow a Shiny application to be embedded in an iframe on a Laravel page. Users should be able to view the Shiny application **only** under the following conditions:
 1. The user is authenticated in Laravel, and able to access the specific page.
